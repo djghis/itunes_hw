@@ -10,7 +10,7 @@ const SongList = (props) => {
     <p>{song["im:name"].label}</p>
     <p>by: {song["im:artist"].label}</p>
     <img src={song["im:image"][2].label} alt="Album cover"/>
-    <audio src={song.link[1].attributes.href} preload="nogit add" controls/>
+    <audio src={song.link[1].attributes.href} preload="none" controls/>
    <br></br>
     </ul>
   })
