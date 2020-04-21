@@ -1,4 +1,21 @@
-.App {
+body{
+  display: flex;
+  justify-content: center;
+  background-color: darkgray;
+}
+
+.top-container{
+  width: 90%;
+  margin: 10px auto;
+  border: 4px solid rgb(8, 27, 199);
+  padding: 10px;
+  background-color: lightgray;
+}
+
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +52,5 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
+

@@ -19,7 +19,7 @@ class Top20Container extends React.Component {
     }
     render() { 
         return (
-            <div>
+            <div className="top-container">
             <Header title="Top 20 Uk From Itunes"/>
             <SongList songs={this.state.songs}/>
             </div>
